@@ -32,7 +32,6 @@ jobs:
           path: |
             dist
             package.json
-            READMe.md
   deploy:
     needs: build
     runs-on: ubuntu-latest
